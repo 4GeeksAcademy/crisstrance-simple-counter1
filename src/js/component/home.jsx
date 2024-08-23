@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { SimpleCounter } from "./SimpleCounter.jsx";
+import { SimpleCounterBonus } from "./SimpleCounterBonus.jsx";
 
 //include images into your bundle
 import rigoImage from "../../img/rigo-baby.jpg";
@@ -33,7 +34,12 @@ const Home = () => {
 				digitTwo={two}
 				digitOne={one}
 			/>
-			<StateExample />
+			<SimpleCounterBonus
+				digitFour={four}
+				digitThree={three}
+				digitTwo={two}
+				digitOne={one}
+			/>
 		</div>
 	)
 };
